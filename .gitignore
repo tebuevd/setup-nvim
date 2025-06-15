@@ -1,0 +1,35 @@
+# Nix build outputs
+result
+result-*
+
+# Direnv
+.direnv/
+
+# Editor temporary files
+.*.swp
+.*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Vim/Neovim temporary files
+*.tmp
+.netrwhist
+
+# Development logs
+*.log
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary test files
+test_*
+temp_*
