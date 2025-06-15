@@ -119,10 +119,6 @@ in
       vim.theme.name = "dracula";
       vim.theme.style = "dark";
 
-      vim.additionalRuntimePaths = [
-        ./lua
-      ];
-
       vim.assistant.copilot = {
         enable = true;
         mappings = {
